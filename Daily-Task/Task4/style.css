@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+    font-size: 16px;
+    font-family: alinur;
+}
+/* Custom Font */
+@font-face {
+    font-family: alinur ;
+    src: url(Font/Alinur-Unicode.ttf);
+}
+@font-face {
+    font-family: "abu sayed" ;
+    src: url(Font/Shohid-Abu-Sayed-Unicode.ttf);
+}
+
+/*=====Header=====*/
+header{
+    width:100vw;
+    padding:30px 100px 100px 100px;
+    
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-content .header-left-content i{
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.header-content .header-left-content i:nth-child(2){
+    margin-left:5px;
+    padding:5px;
+    border:1px solid black;
+    border-radius:50%;
+}
+.header-content .header-left-content p{
+    display: inline-block;
+    padding-top:30px;
+}
+.header-middle-content img{
+    width: 20vw;
+}
+.header-right-content .icons{
+    text-align: right;
+}
+.header-right-content .icons i{
+    font-size: 30px;
+    color: gray;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.header-right-content ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.header-right-content ul li{
+    list-style: none;
+    border-right:3px solid black;
+    
+}
+.header-right-content ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: rgb(54, 54, 54);
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow:0px 1px 5px -2px #403d3d ;
+    
+}
+nav ul li {
+    list-style: none;
+    padding:20px 10px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size:1rem;
+    color: black;
+    font-family: "abu sayed";
+    font-weight:600;
+    transition:all 0.1s;
+}
+nav ul li a:hover{
+    border-bottom:4px solid rgb(49, 127, 201);
+}
+/* Hero Area */
+
+.hero-area{
+    width:100vw;
+    padding:0px 100px 0px 100px;
+    
+}
+.hero{
+    display: flex;
+}
+
+.hero-left-content{
+    width: 100vw;
+}
+.hero-left-content h2{
+    font-size:30px;
+    font-family:"abu-sayed";
+    font-weight: 400;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+.hero-left-content h1{
+    font-size: 36px;
+    font-family: "abu-sayed";
+    color: black;
+}
+.hero-left-content p{
+    font-size:22px;
+    font-family: "abu-sayed";
+    margin: 20px 0px;
+}
+.hero-left-content .hero-left-img p{
+    font-size: 18px;
+    color: gray;
+    font-family:"abu-sayed" ;
+}
+.hero-left-content img{
+    width:60vw;
+    
+}
+.section-content{
+    position: relative;
+    top:0;
+    right: 0;
+}
+.section-content img{
+    width:20vw;
+    
+}
+section{
+    width:80vw;
+    padding: 0px 100px;
+}
+.section-area{
+    display: flex;
+}
+.section-area .link{
+    padding: 21px 0px;
+    font-size: 24px;
+    display: inline-block;
+}
+.section-area .sub1, .sub2, .sub3{
+    width:20vw;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.section-area .sub1 h2, .sub2 h2, .sub3 h2{
+    font-size: 20px;
+    font-family: "'abu sayed'";
+
+}
+.section-area .sub2{
+    margin: 70px 80px 0px 80px;
+}
+.section-area .sub3 img{
+    width: 35vw;
+    height:70vh;
+    margin-top: 65px;
+}
+.section-area .sub3 h2{
+    font-size:36px;
+    width: 40vw;
+}
+/* Footer Area */
+
+.footer-area{
+    padding:100px;
+    width: 80vw;
+}
+.footer-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-logo{
+    width:15vw;
+}
+.footer-app-download{
+    width:0vw;
+    display: flex;
+}
+.footer-app-download img{
+    width: 10vw;
+    cursor: pointer;
+}

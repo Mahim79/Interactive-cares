@@ -1,0 +1,310 @@
+*{
+    box-sizing: border-box;
+    margin:0;padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Area Start */
+
+header{
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 11111;
+}
+.header-area{
+    width: 100vw;
+    padding:1rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-full-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-menubar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-menubar ul li{
+    list-style: none;
+
+}
+.header-menubar ul li a{
+    text-decoration: none;
+    margin:1rem;
+    text-wrap: wrap;
+    color: black;
+    font-size:1.2rem;
+    font-weight:500;
+}
+.header-btn .sign-up{
+    margin:1rem;
+    padding: 8px 18px;
+    border:none;
+    background: transparent;
+    font-size: 1.2rem;
+    font-weight:700;
+    cursor: pointer;
+}
+.header-btn .login{
+    margin:1rem;
+    padding: 8px 18px;
+    border:none;
+    background: #54b8ff;
+    color:white;
+    font-size: 1.2rem;
+    font-weight:700;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media (max-width:1120px){
+    .header-area{
+        display:block;
+    }
+
+    .nav-logo img{
+        width:10rem;
+    }
+    .header-menubar ul li a{
+        margin:10px;
+        font-size:1rem;
+    }
+    .header-full-menu{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+    }
+    .header-btn .sign-up,.header-btn .login{
+        margin:0.5rem;
+        padding:5px 10px;
+        font-size:1rem;
+    }
+}
+
+
+/* Hero Area */
+
+
+.hero-area{
+    display: flex;
+    padding:1rem 5rem;
+
+}
+.hero-container{
+    margin: 10rem 5rem;
+    width: 27rem;
+}
+.hero-container p:nth-child(1){
+    letter-spacing:0.8rem;
+    color: #5f596e;
+}
+.hero-container h1{
+    font-size:3rem;
+    color:#5f596e ;
+}
+.hero-container button{
+    padding:1rem 2rem;
+    margin: 5rem 0rem;
+    border: none;
+    border-radius: 5px;
+    background:#54b8ff;
+    color:white;
+    cursor: pointer;
+}
+.hero-container button i{
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.hero-main-img{
+    width:30rem;
+}
+.hero-main-img img{
+    width: 45rem;
+    position: relative;
+    top:5rem;right: 3rem;
+}
+.hero-mini-images img[src="Media/hero-circle-left.png"]{
+    position: relative;top:-45rem;left: 0rem;
+}
+.hero-mini-images img[src="Media/hero-dot1.png"]{
+    position: relative;
+    top: -50rem;
+    left: 40rem;
+}
+.hero-mini-images img[src="Media/hero-left-bottom.png"]{
+    position: relative;
+    top: -10rem;
+    left:-8rem;
+}
+.hero-mini-images img[src="Media/hero-circle-right1.png"]{
+    position: relative;
+    top: -40rem;
+    left: 67rem;
+}
+.hero-mini-images img[src="Media/hero-circle-right2.png"]{
+    position: relative;
+    top: -20rem;
+    left: 62rem;
+}
+.triangle img[src="Media/triangle1.png"]{
+    position: relative;
+    top: -5rem;
+    left: 37rem;
+}
+.triangle img[src="Media/triangle2.png"]{
+    position: relative;
+    top: -8rem;
+    left: 25rem;
+}
+.triangle img[src="Media/triangle4.png"]{
+    position: relative;
+    top: -9rem;
+    left: 24.2rem;
+}
+.triangle img[src="Media/triangle5.png"]{
+    position: relative;
+    top: -5rem;
+    left: 9rem;
+}
+.triangle{
+    position: relative;
+    top: -12rem;
+    left: -5rem;
+}
+.hero-plus-sign img[src="Media/hero-plus-sign1.png"]{
+    position: relative;
+    top: -10rem;
+    right: -45rem;
+}
+.hero-plus-sign img[src="Media/hero-plus-sign2.png"]{
+    position: relative;
+    top: -13.8rem;
+    right: -40.4rem;
+}
+.hero-plus-sign {
+    margin-left: 23rem;
+}
+
+/* Section Area */
+.section1-area{
+    display: flex;
+    padding:1rem 5rem;
+    width: 100vw;
+}
+.section1-left-img{
+    width:50%;
+}
+.section1-sub-area1{
+    margin:0rem 0rem 1rem 8rem;
+    background: white;
+    width: 12rem;
+    box-shadow: 0px 1px 4px -1px gray;
+    border-radius: 5px;
+}
+.section1-sub-area1 h2{
+    display: inline-block;
+    font-size: 1rem;
+
+}
+.section1-sub-area1 img{
+    display: inline-block;
+    position: relative;
+    top: 1rem;
+}
+.section1-sub-area1 p{
+    position: relative;
+    left:3rem;
+    font-size: 0.8rem;
+
+}
+
+
+.section1-right-content{
+    width: 50%;
+}
+
+.section1-sub-area2{
+    box-shadow: 0px 1px 4px -1px gray;
+    width: 25vw;
+    border-radius: 10px;
+    z-index: 5;
+    position: relative;
+    background: white;
+}
+.section1-sub-area2 img{
+    width: 100%;
+    margin:0px auto;
+}
+.section1-sub-area2 .para1{
+    color:red;
+    padding: 0.8rem;
+}
+.section1-sub-area2 .para2{
+    padding:0rem 0.8rem;
+    color: gray;
+}
+.section1-sub-area2 .para3{
+    padding:1rem 0.8rem;
+    color: gray;
+    display: inline-block;
+}
+.section1-sub-area2 button{
+    padding: 0.4rem 0.8rem;
+    border:none;
+    background-color: green;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section1-sub-area2 h2{
+    padding:0rem 0.8rem;
+}
+.section1-area img[src="Media/Section1 img2.png"]{
+    position: relative;
+    top: -30rem;
+    left: 16rem;
+    width:300px;
+    z-index:5;
+
+}
+.section1-area img[src="Media/Section1 circle.png"]{
+    position: relative;
+    top: -27rem;
+    left: 0rem;
+    z-index:-1;
+    width:150px;
+}
+
+.section-1-triangle img{
+    position: relative;
+    top: 25rem;
+    right: -4rem;
+}
+
+.section1-right-content {
+    width: 50%;
+}
+.section1-right-content h2{
+    font-size: 2rem;
+    color:#04004d;
+    padding: 1.5rem;
+}
+.section1-right-content p{
+    color:green;
+    padding: 0px 1.5rem;
+    text-align: justify;
+}
+.section1-right-content a{
+    margin-top: 3rem;
+    display: inline-block;
+    padding: 0px 1.5rem;
+    color:green;
+}
