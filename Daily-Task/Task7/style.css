@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(images/bg-tablet-pattern.svg);
+    background-size: 100%;
+    background-position: 5rem -5rem;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.menubar, .header-btn{
+    display: none;
+}
+.header-area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    
+}
+.menubtn a i{
+    color:#242D52
+}
+
+/* Hero Area */
+.hero-area{
+    width: 100%;
+}
+.intro-img{
+    width:100%  
+}
+.intro-img img{
+    width: 70%;
+    display: block;
+    margin:auto;
+}
+.hero-content{
+    width: 100%;
+    text-align: center;
+}
+.hero-content h1{
+    font-size:2.5rem;
+    color: #242D52;
+    padding: 0rem 2rem;
+}
+.hero-content p{
+    font-size:1.2rem;
+    color: gray;
+    padding: 1rem 2rem;
+}
+.hero-content button{
+    padding: 0.8rem 2.5rem;
+    border: none;
+    background: #F3603C;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 1rem 0rem;
+    cursor: pointer;
+}
+
+/* About Section */
+.about-section-area{
+    width: 100%;
+}
+.about-area1{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0rem 2rem;
+    text-align: center;
+}
+.about-area1 h2{
+    font-size: 2rem;
+    color: #242D52;
+    font-weight: 600;
+    
+}
+.about-area1 p{
+    font-size: 1.2rem;
+    color: gray;
+    text-align: center;
+    line-height: 2rem;
+    margin-top: 2rem;font-size:1.2rem;
+    color: gray;
+    text-align: center;
+}
+
+.about-area2{
+    width: 100%;
+
+}
+.about-sub{
+    margin-top: 2rem;
+}
+.about-sub .about-sub-title{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    text-align: right;
+    margin-left: 1rem;
+}
+.about-sub .about-sub-title p{
+    font-size:3rem;
+    padding: 0.1rem 0.4rem;
+    background-color: #f3603c;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    color:#fff;
+
+}
+.about-sub .about-sub-title h2{
+    font-size: 1rem;
+    background-color: #ffac97;
+    padding: 0.9rem 0.4rem;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.about-sub-para{
+    padding: 0.5rem 1rem;
+    line-height: 1.5rem;
+    color: gray;
+}
+/* Review Section */
+.review-area{
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+}
+.review-area > h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #242D52;
+}
+.review-item{
+    width:90%;
+    background:rgb(245, 243, 243);
+    margin:8rem 2rem 4rem 2rem;
+    padding:5rem 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+    position: relative;
+}
+.review-item img{
+    position: absolute;
+    /* top: -50%;
+    left: 40%; */
+    top: -40%;
+    left: 32%;
+}
+.review-item h3{
+    color:#242D52;
+    margin-bottom:1rem;
+}
+.review-item p{
+    color:gray;
+    
+}
+.review-btn button{
+    display: block;
+    margin:0rem auto 5rem auto;
+    padding: 0.8rem 2.5rem;
+    border: none;
+    background: #F3603C;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.team-area{
+    width: 100%;
+    background: #F3603C;
+    color:white;
+    padding:2rem ;
+    text-align: center;
+}
+.team-area h2{
+    font-size:2rem;
+    
+}
+.team-area button{
+    display: block;
+    margin:1rem auto;
+    padding: 0.8rem 2.5rem;
+    border: none;
+    background: #fff;
+    border-radius: 20px;
+    color: #F3603C;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+footer{
+    background: #242D52;
+    padding: 2rem 2rem 0rem 2rem;
+}
+.footer-area{
+    width: 100%;
+    
+}
+.footer-input{
+    text-align: center;
+}
+.footer-input > * {
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+.footer-input input:nth-of-type(1){
+    
+}
+.footer-input input:nth-of-type(2){
+    background-color: #F3603C;
+    color:#fff;
+    cursor:pointer;
+}
+
+.footer-menu > * ul li {
+    list-style: none;
+    padding:0.6rem 0;
+}
+.footer-menu > * ul li a{
+    text-decoration: none;
+    color:#fff;
+    
+}
+.footer-menu{
+    display: flex;
+    align-items: start;
+    justify-content:space-around;
+    margin-top: 2rem;
+}
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    color:#fff;
+    padding: 1rem;
+}
+.footer-logo img{
+    background-color:#fff;
+    padding: 1rem;
+    border-radius: 20px;
+    display: block;
+    margin:1rem auto;
+}
+.footer-right{
+    text-align: center;
+    color:#fff;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,111 @@
+
+
+/* Mobile Approch */
+@media(min-width:480px){
+    body{
+        background-size: 60%;
+        background-position: 30rem -8rem;
+    }
+    .menubar, .header-btn{
+        display: block;
+    }
+    .menubtn{
+        display: none;
+    }
+    .header-area{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top:4rem;
+    }
+    .menubar ul{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    .menubar ul li{
+        list-style: none;
+    
+    }
+    .menubar ul li a{
+        text-decoration: none;
+        color:#242D52;
+        font-weight: 600;
+        padding:1rem;
+    }
+    .header-btn button{
+        padding: 0.5rem 1rem;
+        background:#F3613C;
+        color:#fff;
+        border:none;
+        border-radius:20px;
+    }
+    .hero-area{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        margin-top:3rem;
+    }
+    /* About Area */
+    .about-section-area{
+        display:flex;
+        align-items:start;
+        justify-content: space-around;
+        margin-top: 3rem;
+    }
+    .about-area1{
+        width:50%;
+    }
+    .about-area2{
+        width: 50%;
+    }
+    /* Review Area */
+    .review-items{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .review-item img{
+        position: absolute;
+        top: -40%;
+        left: 35%;
+        /* top: -40%;
+        left: 28%; */
+    }
+    .team-area{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .team-area h2{
+        width: 60%;
+        font-size: 3.5rem;
+    }
+    .footer-area{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items:center;
+        justify-content: space-evenly;
+    }
+    .footer-icons-logo{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:center;
+        justify-content: space-between;
+        
+    }
+    .footer-icons i{
+        margin-right: 1rem;
+        margin-top:5rem;
+    }
+    .footer-menu ul{
+        padding: 0rem 2rem;
+    }
+    .footer-right{
+        text-align: right;
+        padding: 1rem;
+    }
+}
+
