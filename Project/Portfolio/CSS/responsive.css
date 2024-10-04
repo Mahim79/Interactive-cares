@@ -1,0 +1,138 @@
+@media (min-width:772px) {
+    
+    /* Header Style */
+    .header__area{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 1rem;
+    }
+    .header{
+        position: sticky;
+        top:0rem;
+        background: none;
+        backdrop-filter: blur(5px);
+    }
+
+    /* Hero Style */
+    .hero__area{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:2rem;
+        margin:5rem 5rem 0rem ;
+        
+    }
+    .hero__title{
+        text-align: left;
+    }
+    .hero__left img{
+        width: 400px;
+    }
+
+    /* Resume Area */
+    .resume__sub_container{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .resume__sub_container:nth-of-type(2){
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+    }
+    .resume__item{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap:2rem;
+    }
+    .resume__left img{
+        width:400px;
+    }
+    
+    /* Certificate Area */
+    .certificate__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .certificate__item{
+        width:40%;
+    }
+
+    /* Skill Area */
+    .skill__area{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 5rem 1rem;
+    }
+    .skill__container{
+        width: 40%;
+        margin-top: 2rem;
+    }
+
+    /* Portfolio Area */
+    .portfolio__area{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+    }
+    .portfolio__container{
+        width: 30%;
+    }
+
+    /* Contact Area */
+    .contact__area{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .contact__info{
+        width: 40%;
+    }
+    .contact__input{
+        width: 60%;
+    }
+    .contact__input_container{
+        display: flex;
+        align-items: flex-start;
+    }
+    .contact__input_left{
+        width: 50%;
+    }
+    .contact__input_right{
+        width: 50%;
+    }
+    .contact__phone,
+    .contact__mail,
+    .contact__location{
+        color:#fff;
+        text-decoration: none;
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+    .contact__input_right textarea{
+        height: 200px;
+    }
+    .contact__submit{
+        width:20%;
+        font-size: 1rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    /* Footer Style Area */
+    .footer__area{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:1rem 2rem;
+    }
+    
+}
